@@ -17,7 +17,7 @@ Input the digraph as
 - d6 string
 - Graph visual
 
-### References
+## References
 González-Moreno, D., Hernández-Ortiz, R., Llano, B., & Olsen, M. (2022). The Dichromatic Polynomial of a Digraph. Graphs and Combinatorics, 38(3), 85. https://doi.org/10.1007/s00373-022-02484-0 \
 Harutyunyan, A. (2012). Brooks-Type results for colorings of digraphs [PhD].\
 Neumann-Lara, V. (1982). The dichromatic number of a digraph. Journal of Combinatorial Theory, Series B, 33(3), 265–270. https://doi.org/10.1016/0095-8956(82)90046-6

@@ -8,7 +8,7 @@ You can skip the #code section in the notebook or the python file and skip to #T
 ### Input
 Input the digraph as 
 - Adjacency matrix format $(A_{ij} = 1$ if $ij$ is an arc, $0$ else): `dichromatic_poly(edge_matrix).as_expr()`
-- .d6 format (see Brendan McKay's library ![here](https://users.cecs.anu.edu.au/~bdm/data/digraphs.html) ) as ``dichromatic_poly(parse_d6("&EIC`OHa")).as_expr()``
+- .d6 format (see Brendan McKay's library [here](https://users.cecs.anu.edu.au/~bdm/data/digraphs.html)) as ``dichromatic_poly(parse_d6("&EIC`OHa")).as_expr()``
 - Upper triangular form (tournaments only) (0-1 string of the form $"v_1v_2 \ldots v_1v_n v_2v_3 \ldots v_2v_n \ldots v_{n-1}v_n"$ where an entry is $1$ if the arc $v_iv_j$ exists and 0 if the arc $v_jv_i$ exists): `dichromatic_poly(parse_tournament('011000')).as_expr())`
 
 ### Output:
